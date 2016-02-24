@@ -1,6 +1,6 @@
 # babel-preset-es2017
 
-> Babel preset for all es2017 plugins.
+> Babel preset to make node compatible with ES2015, ES2016 and ES2017 stage 3 and stage 4.
 
 ## Install
 
