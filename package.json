@@ -1,0 +1,35 @@
+{
+  "name": "babel-preset-es2017",
+  "description": "Babel preset to make node compatible with ES2015, ES2016 and ES2017 stage 3 and stage 4",
+  "version": "1.0.0",
+  "author": {
+    "email": "marco@bettiolo.it",
+    "name": "Marco Bettiolo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bettiolo/babel-preset-es2017"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "dependencies": {
+
+  },
+  "devDependencies": {
+
+  },
+  "keywords": [
+    "babel-preset-es2017",
+    "babel-preset",
+    "babel",
+    "es2017",
+    "es2016",
+    "es2015",
+    "es8",
+    "es7",
+    "es6"
+  ]
+}
