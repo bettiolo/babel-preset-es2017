@@ -6,7 +6,7 @@
 (https://david-dm.org/bettiolo/babel-preset-es2017)
 [![npm version](https://img.shields.io/npm/v/babel-preset-es2017.svg)]
 (https://www.npmjs.com/package/babel-preset-es2017)
-[![GitHub release](https://img.shields.io/github/release/bettiolo/babel-preset-2017.svg)]
+[![GitHub release](https://img.shields.io/github/release/bettiolo/babel-preset-es2017.svg)]
 (https://github.com/bettiolo/babel-preset-es2017/releases)
 [![node version](https://img.shields.io/node/v/babel-preset-es2017.svg)]
 (https://github.com/bettiolo/babel-preset-es2017/blob/master/package.json)
