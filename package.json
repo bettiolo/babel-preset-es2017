@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-es2017",
-  "description": "Babel preset to make node compatible with ES2015, ES2016 and ES2017 stage 3 and stage 4",
+  "description": "Babel preset for ES2015, ES2016 and ES2017 stage 3 and stage 4 with Node 5.x",
   "version": "1.0.0",
   "author": {
     "email": "marco@bettiolo.it",
@@ -13,13 +13,42 @@
   "license": "MIT",
   "main": "index.js",
   "scripts": {
-    "test": ""
+    "test": "echo 'Testing...' && mocha ./test/*.js",
+    "lint": "npm run -s posttest; exit 0",
+    "posttest": "echo 'Linting...' && eslint --cache --ignore-path test/.eslintignore ./test/",
+    "test:watch": "nodemon -e js,json --watch ./ --exec npm test",
+    "prepublish": "npm run test",
+    "bump-version": "bump --prompt --commit --tag --push && npm publish"
+  },
+  "engines": {
+    "node": ">=5"
   },
   "dependencies": {
-
+    "babel-plugin-array-includes": "^2.0.3",
+    "babel-plugin-syntax-async-functions": "^6.5.0",
+    "babel-plugin-syntax-object-rest-spread": "^6.5.0",
+    "babel-plugin-transform-async-to-generator": "^6.5.0",
+    "babel-plugin-transform-es2015-destructuring": "^6.6.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.6.3",
+    "babel-plugin-transform-es2015-parameters": "^6.6.0",
+    "babel-plugin-transform-es2015-sticky-regex": "^6.5.0",
+    "babel-plugin-transform-es2015-unicode-regex": "^6.5.0",
+    "babel-plugin-transform-exponentiation-operator": "^6.5.0",
+    "babel-plugin-transform-flow-strip-types": "^6.5.0",
+    "babel-plugin-transform-object-rest-spread": "^6.5.0",
+    "babel-plugin-transform-strict-mode": "^6.5.2"
   },
   "devDependencies": {
-
+    "babel-eslint": "^5.0.0",
+    "babel-register": "^6.6.0",
+    "chai": "^3.5.0",
+    "eslint": "^2.2.0",
+    "eslint-config-airbnb": "^6.0.2",
+    "eslint-plugin-babel": "^3.1.0",
+    "eslint-plugin-react": "^4.1.0",
+    "mocha": "^2.4.5",
+    "nodemon": "^1.9.1",
+    "version-bump-prompt": "^1.5.2"
   },
   "keywords": [
     "babel-preset-es2017",
