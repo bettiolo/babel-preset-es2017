@@ -1,8 +1,19 @@
 # babel-preset-es2017
 
-[![Build Status](https://travis-ci.org/bettiolo/babel-preset-es2017.svg?branch=master)](https://travis-ci.org/bettiolo/babel-preset-es2017)
+[![Build status](https://img.shields.io/travis/bettiolo/babel-preset-es2017.svg)]
+(https://travis-ci.org/bettiolo/babel-preset-es2017)
+[![Dependency status](https://david-dm.org/bettiolo/babel-preset-es2017.svg)]
+(https://david-dm.org/bettiolo/babel-preset-es2017)
+[![npm version](https://img.shields.io/npm/v/babel-preset-es2017.svg)]
+(https://www.npmjs.com/package/babel-preset-es2017)
+[![GitHub release](https://img.shields.io/github/release/bettiolo/babel-preset-2017.svg)]
+(https://github.com/bettiolo/babel-preset-es2017/releases)
+[![node version](https://img.shields.io/node/v/babel-preset-es2017.svg)]
+(https://github.com/bettiolo/babel-preset-es2017/blob/master/package.json)
+[![npm license](https://img.shields.io/npm/l/babel-preset-es2017.svg)]
+(https://github.com/bettiolo/babel-preset-es2017/blob/master/LICENSE)
 
-> Babel preset to make node compatible with ES2015, ES2016 and ES2017 stage 3 and stage 4.
+> Babel preset to use ES2015, ES2016 and ES2017 (incl. stage 3) with Node 5.x.
 
 ## Install
 
