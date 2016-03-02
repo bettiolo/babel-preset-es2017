@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-es2017",
-  "description": "Babel preset for ES2015, ES2016 and ES2017 stage 3 and stage 4 with Node 5.x",
+  "description": "Babel preset to use ES2015, ES2016 and ES2017 (incl. stage 3) with Node 5.x",
   "version": "1.0.0",
   "author": {
     "email": "marco@bettiolo.it",
