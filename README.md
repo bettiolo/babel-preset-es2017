@@ -54,8 +54,8 @@ require("babel-core").transform("code", {
 Support for [stage4/stage3 proposals](https://github.com/tc39/ecma262/blob/master/README.md):
 - [ ] SIMD.JS
 - [x] [Async Functions](http://www.2ality.com/2016/02/async-functions.html)
-      | [transform-async-to-generator](https://babeljs.io/docs/plugins/transform-async-to-generator/)
-      , [syntax-async-functions](https://babeljs.io/docs/plugins/syntax-async-functions/)
+      | [transform-async-to-generator](https://babeljs.io/docs/plugins/transform-async-to-generator/),
+        [syntax-async-functions](https://babeljs.io/docs/plugins/syntax-async-functions/)
 - [ ] Object.values/Object.entries
 - [ ] String padding
 - [ ] Trailing commas in function parameter lists and calls
@@ -64,7 +64,7 @@ Support for [stage4/stage3 proposals](https://github.com/tc39/ecma262/blob/maste
 ### ES2016 / ES6
 
 - [x] [Array.prototype.includes](http://www.2ality.com/2016/02/array-prototype-includes.html) 
-      | [babel-plugin-array-includes](https://www.npmjs.com/package/babel-plugin-array-includes)
+      | [array-includes](https://www.npmjs.com/package/babel-plugin-array-includes)
 - [x] [Exponentiation Operator](http://www.2ality.com/2016/02/exponentiation-operator.html)
       | [transform-exponentiation-operator](https://babeljs.io/docs/plugins/transform-exponentiation-operator/)
 
