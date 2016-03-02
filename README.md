@@ -1,5 +1,7 @@
 # babel-preset-es2017
 
+[![Build Status](https://travis-ci.org/bettiolo/babel-preset-es2017.svg?branch=master)](https://travis-ci.org/bettiolo/babel-preset-es2017)
+
 > Babel preset to make node compatible with ES2015, ES2016 and ES2017 stage 3 and stage 4.
 
 ## Install
