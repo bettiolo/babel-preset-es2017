@@ -92,5 +92,6 @@ _TODO: describe support_
 - https://github.com/alekseykulikov/babel-preset-es2015-node5
 - https://github.com/leebenson/babel-preset-node5
 - https://github.com/rtsao/babel-preset-es2015-node
+- https://github.com/colinbate/babel-preset-es2015-node-plus
 - https://github.com/MattMcFarland/babel-preset-bleeding
 - https://github.com/airbnb/babel-preset-airbnb
