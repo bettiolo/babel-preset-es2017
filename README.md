@@ -17,8 +17,11 @@
 
 ## Install
 
+
+[![NPM](https://nodei.co/npm/babel-preset-es2017.png?mini=true)](https://www.npmjs.org/package/babel-preset-es2017)
+
 ```sh
-$ npm install --save-dev babel-preset-es2017
+$ npm install --save babel-preset-es2017
 ```
 
 ## Usage
@@ -82,6 +85,14 @@ _TODO: describe support_
 
 ## Related projects:
 - https://github.com/babel/babel/tree/master/packages/babel-preset-es2015
-- https://github.com/jbach/babel-preset-es2015-node4
-- https://github.com/babel/babel/tree/master/packages/babel-preset-react
 - https://github.com/babel/babel/tree/master/packages/babel-preset-stage-0
+- https://github.com/babel/babel/tree/master/packages/babel-preset-stage-1
+- https://github.com/babel/babel/tree/master/packages/babel-preset-stage-2
+- https://github.com/babel/babel/tree/master/packages/babel-preset-stage-3
+- https://github.com/babel/babel/tree/master/packages/babel-preset-react
+- https://github.com/jbach/babel-preset-es2015-node4
+- https://github.com/alekseykulikov/babel-preset-es2015-node5
+- https://github.com/leebenson/babel-preset-node5
+- https://github.com/rtsao/babel-preset-es2015-node
+- https://github.com/MattMcFarland/babel-preset-bleeding
+- https://github.com/airbnb/babel-preset-airbnb
