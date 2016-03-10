@@ -59,5 +59,8 @@
     "es2015",
     "es7",
     "es6"
-  ]
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
 }
