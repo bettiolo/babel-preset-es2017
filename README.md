@@ -68,7 +68,7 @@ Support for [stage4/stage3 proposals](https://github.com/tc39/ecma262/blob/maste
 
 - [x] [Array.prototype.includes](http://www.2ality.com/2016/02/array-prototype-includes.html) 
       | [array-includes](https://www.npmjs.com/package/babel-plugin-array-includes)
-- [x] [Exponentiation Operator](http://www.2ality.com/2016/02/exponentiation-operator.html)
+- [x] [Exponentiation Operator (`**`)](http://www.2ality.com/2016/02/exponentiation-operator.html)
       | [transform-exponentiation-operator](https://babeljs.io/docs/plugins/transform-exponentiation-operator/)
 
 ### ES2015 / ES6
