@@ -57,7 +57,7 @@ Support for [stage4/stage3 proposals](https://github.com/tc39/ecma262/blob/maste
 - [x] [Async Functions](http://www.2ality.com/2016/02/async-functions.html)
       | [transform-async-to-generator](https://babeljs.io/docs/plugins/transform-async-to-generator/),
         [syntax-async-functions](https://babeljs.io/docs/plugins/syntax-async-functions/)
-- [ ] Object.values/Object.entries
+- [x] Object.values/Object.entries
 - [ ] String padding
 - [ ] Trailing commas in function parameter lists and calls
 - [ ] Object.getOwnPropertyDescriptors

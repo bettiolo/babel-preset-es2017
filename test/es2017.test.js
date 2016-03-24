@@ -11,4 +11,12 @@ describe('ES2017', () => {
   it('async functions', async () => {
     assert.equal(await asyncTimeout(), 'OK');
   });
+
+  it('Object.entries()', () => {
+    assert.deepEqual(Object.entries({q: 1, w: 2, e: 3}), [['q', 1], ['w', 2], ['e', 3]]);
+  });
+
+  it('Object.values()', () => {
+    assert.deepEqual(Object.values({q: 1, w: 2, e: 3}), [1, 2, 3]);
+  });
 });

@@ -36,7 +36,8 @@
     "babel-plugin-transform-exponentiation-operator": "^6.5.0",
     "babel-plugin-transform-flow-strip-types": "^6.7.0",
     "babel-plugin-transform-object-rest-spread": "^6.6.5",
-    "babel-plugin-transform-strict-mode": "^6.6.5"
+    "babel-plugin-transform-strict-mode": "^6.6.5",
+    "core-js": "^2.2.1"
   },
   "devDependencies": {
     "babel-eslint": "^5.0.0",
