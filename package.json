@@ -47,7 +47,7 @@
     "eslint-config-airbnb": "^9.0.1",
     "eslint-plugin-babel": "^3.2.0",
     "eslint-plugin-import": "^1.8.0",
-    "mocha": "^2.4.5",
+    "mocha": "^2.5.0",
     "nodemon": "^1.9.2",
     "version-bump-prompt": "^1.5.2"
   },
