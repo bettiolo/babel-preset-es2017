@@ -69,6 +69,7 @@ Support for [stage3 proposals](https://github.com/tc39/proposals):
       | [transform-async-to-generator](https://babeljs.io/docs/plugins/transform-async-to-generator/),
         [syntax-async-functions](https://babeljs.io/docs/plugins/syntax-async-functions/)
 - [ ] [Function.prototype.toString revision](http://tc39.github.io/Function-prototype-toString-revision/)
+- [ ] [Template Literal Revision](https://tc39.github.io/proposal-template-literal-revision/)
 
 ### ES2016 / ES6
 
