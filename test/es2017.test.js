@@ -19,4 +19,13 @@ describe('ES2017', () => {
   it('Object.values()', () => {
     assert.deepEqual(Object.values({q: 1, w: 2, e: 3}), [1, 2, 3]);
   });
+
+
+  it('String.padStart()', () => {
+    assert.equal('abc'.padStart(6, '-'), '---abc');
+  });
+
+  it('String.padEnd()', () => {
+    assert.equal('xyz'.padEnd(6, '-'), 'xyz---');
+  });
 });
