@@ -42,4 +42,20 @@ describe('ES2017', () => {
       },
     });
   });
+
+  it('Parses Trailing Commas in Function Param Lists', () => {
+    function clownPuppiesEverywhere(
+      param1,
+      param2, // Trailing commas in function definition
+    ) {
+      return `${param1}${param2}`;
+    }
+
+    const works = clownPuppiesEverywhere(
+      'foo',
+      'bar',  // Trailing commas in function call
+    );
+
+    assert.equal(works, 'foobar');
+  });
 });

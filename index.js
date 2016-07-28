@@ -18,6 +18,7 @@ module.exports = {
     // ES2017 w/ Node 5
     require('babel-plugin-syntax-async-functions'),
     require('babel-plugin-transform-async-to-generator'),
+    require('babel-plugin-syntax-trailing-function-commas'),
   ]
 };
 

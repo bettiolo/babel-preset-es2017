@@ -60,7 +60,7 @@ Support for [finished proposals]():
       [es7.string.pad-end](https://github.com/zloirock/core-js/blob/v2.4.1/modules/es7.string.pad-end.js)
 - [X] [Object.getOwnPropertyDescriptors](https://github.com/tc39/proposal-object-getownpropertydescriptors)
       | [get-own-property-descriptors](https://github.com/zloirock/core-js/blob/v2.4.1/modules/es7.object.get-own-property-descriptors.js)
-- [ ] [Trailing Commas in Function Param Lists](https://jeffmo.github.io/es-trailing-function-commas/) 
+- [X] [Trailing Commas in Function Param Lists](https://jeffmo.github.io/es-trailing-function-commas/) 
       | [syntax-trailing-function-commas](https://babeljs.io/docs/plugins/syntax-trailing-function-commas/)
 
 Support for [stage3 proposals](https://github.com/tc39/proposals):
