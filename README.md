@@ -53,7 +53,7 @@ require("babel-core").transform("code", {
 ### ES2017 (incl. stage 3)
 
 Support for [stage4/stage3 proposals](https://github.com/tc39/ecma262/blob/master/README.md):
-- [ ] SIMD.JS
+- [ ] [SIMD](https://github.com/tc39/ecmascript_simd)
 - [x] [Async Functions](http://www.2ality.com/2016/02/async-functions.html)
       | [transform-async-to-generator](https://babeljs.io/docs/plugins/transform-async-to-generator/),
         [syntax-async-functions](https://babeljs.io/docs/plugins/syntax-async-functions/)
