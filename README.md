@@ -63,8 +63,10 @@ Support for [stage4/stage3 proposals](https://github.com/tc39/ecma262/blob/maste
 - [ ] [String.prototype.padStart/String.prototype.padEnd](https://github.com/tc39/proposal-string-pad-start-end)
       | [es7.string.pad-start](https://github.com/zloirock/core-js/blob/v2.4.1/modules/es7.string.pad-start.js),
       [es7.string.pad-end](https://github.com/zloirock/core-js/blob/v2.4.1/modules/es7.string.pad-end.js)
-- [ ] Trailing commas in function parameter lists and calls
-- [ ] Object.getOwnPropertyDescriptors
+- [ ] [Trailing Commas in Function Param Lists](https://jeffmo.github.io/es-trailing-function-commas/) 
+      | [syntax-trailing-function-commas](https://babeljs.io/docs/plugins/syntax-trailing-function-commas/)
+- [ ] [Object.getOwnPropertyDescriptors](https://github.com/tc39/proposal-object-getownpropertydescriptors)
+      | [get-own-property-descriptors](https://github.com/zloirock/core-js/blob/v2.4.1/modules/es7.object.get-own-property-descriptors.js)
 
 ### ES2016 / ES6
 
