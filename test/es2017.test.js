@@ -12,20 +12,34 @@ describe('ES2017', () => {
     assert.equal(await asyncTimeout(), 'OK');
   });
 
-  it('Object.entries()', () => {
+  it('Object.entries', () => {
     assert.deepEqual(Object.entries({q: 1, w: 2, e: 3}), [['q', 1], ['w', 2], ['e', 3]]);
   });
 
-  it('Object.values()', () => {
+  it('Object.values', () => {
     assert.deepEqual(Object.values({q: 1, w: 2, e: 3}), [1, 2, 3]);
   });
 
 
-  it('String.padStart()', () => {
+  it('String.padStart', () => {
     assert.equal('abc'.padStart(6, '-'), '---abc');
   });
 
-  it('String.padEnd()', () => {
+  it('String.padEnd', () => {
     assert.equal('xyz'.padEnd(6, '-'), 'xyz---');
+  });
+
+  it('Object.getOwnPropertyDescriptors', () => {
+    const obj = {
+      [Symbol('foo')]: 123,
+    };
+    assert.deepEqual(Object.getOwnPropertyDescriptors(obj), {
+      [Symbol('foo')]: {
+        value: 123,
+        writable: true,
+        enumerable: true,
+        configurable: true,
+      },
+    });
   });
 });
