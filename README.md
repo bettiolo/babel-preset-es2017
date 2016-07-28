@@ -11,7 +11,7 @@
 [![npm license](https://img.shields.io/npm/l/babel-preset-es2017.svg)]
 (https://github.com/bettiolo/babel-preset-es2017/blob/master/LICENSE)
 
-> Babel preset to use ES2015, ES2016 and ES2017 (incl. stage 3) with Node 5.x.
+> Babel preset to use ES2016 and ES2017 (incl. stage 3) with Node 5+.
 
 ## Install
 
@@ -48,7 +48,7 @@ require("babel-core").transform("code", {
 });
 ```
 
-## ES2017 (incl. stage 3), ES2016/ES7, ES2015/ES6, ES5.x support
+## ES2017 (incl. stage 3), ES2016/ES7
 
 ### ES2017 (incl. stage 3)
 Support for [finished proposals]():
@@ -77,12 +77,6 @@ Support for [stage3 proposals](https://github.com/tc39/proposals):
       | [array-includes](https://www.npmjs.com/package/babel-plugin-array-includes)
 - [x] [Exponentiation Operator (`**`)](http://www.2ality.com/2016/02/exponentiation-operator.html)
       | [transform-exponentiation-operator](https://babeljs.io/docs/plugins/transform-exponentiation-operator/)
-
-### ES2015 / ES6
-_TODO: describe support_
-
-### ES5
-_TODO: describe support_
 
 ## Documentation:
 - [ES2017 Language Specification](https://tc39.github.io/ecma262)
