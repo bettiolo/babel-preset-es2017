@@ -51,22 +51,24 @@ require("babel-core").transform("code", {
 ## ES2017 (incl. stage 3), ES2016/ES7, ES2015/ES6, ES5.x support
 
 ### ES2017 (incl. stage 3)
-
-Support for [stage4/stage3 proposals](https://github.com/tc39/ecma262/blob/master/README.md):
-- [ ] [SIMD](https://github.com/tc39/ecmascript_simd)
-- [x] [Async Functions](http://www.2ality.com/2016/02/async-functions.html)
-      | [transform-async-to-generator](https://babeljs.io/docs/plugins/transform-async-to-generator/),
-        [syntax-async-functions](https://babeljs.io/docs/plugins/syntax-async-functions/)
+Support for [finished proposals]():
 - [x] [Object.values/Object.entries](http://www.2ality.com/2015/11/stage3-object-entries.html)
       | [es7.object.values](https://github.com/zloirock/core-js/blob/v2.2.1/modules/es7.object.values.js),
         [es7.object.entries](https://github.com/zloirock/core-js/blob/v2.2.1/modules/es7.object.entries.js)
 - [ ] [String.prototype.padStart/String.prototype.padEnd](https://github.com/tc39/proposal-string-pad-start-end)
       | [es7.string.pad-start](https://github.com/zloirock/core-js/blob/v2.4.1/modules/es7.string.pad-start.js),
       [es7.string.pad-end](https://github.com/zloirock/core-js/blob/v2.4.1/modules/es7.string.pad-end.js)
-- [ ] [Trailing Commas in Function Param Lists](https://jeffmo.github.io/es-trailing-function-commas/) 
-      | [syntax-trailing-function-commas](https://babeljs.io/docs/plugins/syntax-trailing-function-commas/)
 - [ ] [Object.getOwnPropertyDescriptors](https://github.com/tc39/proposal-object-getownpropertydescriptors)
       | [get-own-property-descriptors](https://github.com/zloirock/core-js/blob/v2.4.1/modules/es7.object.get-own-property-descriptors.js)
+- [ ] [Trailing Commas in Function Param Lists](https://jeffmo.github.io/es-trailing-function-commas/) 
+      | [syntax-trailing-function-commas](https://babeljs.io/docs/plugins/syntax-trailing-function-commas/)
+
+Support for [stage3 proposals](https://github.com/tc39/proposals):
+- [ ] [SIMD](https://github.com/tc39/ecmascript_simd)
+- [x] [Async Functions](http://www.2ality.com/2016/02/async-functions.html)
+      | [transform-async-to-generator](https://babeljs.io/docs/plugins/transform-async-to-generator/),
+        [syntax-async-functions](https://babeljs.io/docs/plugins/syntax-async-functions/)
+- [ ] [Function.prototype.toString revision](http://tc39.github.io/Function-prototype-toString-revision/)
 
 ### ES2016 / ES6
 
