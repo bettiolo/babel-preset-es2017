@@ -55,7 +55,7 @@ Support for [finished proposals]():
 - [x] [Object.values/Object.entries](http://www.2ality.com/2015/11/stage3-object-entries.html)
       | [es7.object.values](https://github.com/zloirock/core-js/blob/v2.2.1/modules/es7.object.values.js),
         [es7.object.entries](https://github.com/zloirock/core-js/blob/v2.2.1/modules/es7.object.entries.js)
-- [ ] [String.prototype.padStart/String.prototype.padEnd](https://github.com/tc39/proposal-string-pad-start-end)
+- [X] [String.prototype.padStart/String.prototype.padEnd](https://github.com/tc39/proposal-string-pad-start-end)
       | [es7.string.pad-start](https://github.com/zloirock/core-js/blob/v2.4.1/modules/es7.string.pad-start.js),
       [es7.string.pad-end](https://github.com/zloirock/core-js/blob/v2.4.1/modules/es7.string.pad-end.js)
 - [ ] [Object.getOwnPropertyDescriptors](https://github.com/tc39/proposal-object-getownpropertydescriptors)
