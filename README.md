@@ -58,7 +58,7 @@ Support for [finished proposals]():
 - [X] [String.prototype.padStart/String.prototype.padEnd](https://github.com/tc39/proposal-string-pad-start-end)
       | [es7.string.pad-start](https://github.com/zloirock/core-js/blob/v2.4.1/modules/es7.string.pad-start.js),
       [es7.string.pad-end](https://github.com/zloirock/core-js/blob/v2.4.1/modules/es7.string.pad-end.js)
-- [ ] [Object.getOwnPropertyDescriptors](https://github.com/tc39/proposal-object-getownpropertydescriptors)
+- [X] [Object.getOwnPropertyDescriptors](https://github.com/tc39/proposal-object-getownpropertydescriptors)
       | [get-own-property-descriptors](https://github.com/zloirock/core-js/blob/v2.4.1/modules/es7.object.get-own-property-descriptors.js)
 - [ ] [Trailing Commas in Function Param Lists](https://jeffmo.github.io/es-trailing-function-commas/) 
       | [syntax-trailing-function-commas](https://babeljs.io/docs/plugins/syntax-trailing-function-commas/)
