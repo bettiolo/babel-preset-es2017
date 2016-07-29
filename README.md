@@ -89,12 +89,12 @@ Support for [finished proposals](https://github.com/tc39/proposals/blob/master/f
       | [get-own-property-descriptors](https://github.com/zloirock/core-js/blob/v2.4.1/modules/es7.object.get-own-property-descriptors.js)
 - [X] [Trailing Commas in Function Param Lists](https://jeffmo.github.io/es-trailing-function-commas/) 
       | [syntax-trailing-function-commas](https://babeljs.io/docs/plugins/syntax-trailing-function-commas/)
-
-Support for [stage3 proposals](https://github.com/tc39/proposals):
-- [ ] [SIMD](https://github.com/tc39/ecmascript_simd)
 - [x] [Async Functions](http://www.2ality.com/2016/02/async-functions.html)
       | [transform-async-to-generator](https://babeljs.io/docs/plugins/transform-async-to-generator/),
         [syntax-async-functions](https://babeljs.io/docs/plugins/syntax-async-functions/)
+
+Support for [stage3 proposals](https://github.com/tc39/proposals):
+- [ ] [SIMD](https://github.com/tc39/ecmascript_simd)
 - [ ] [Function.prototype.toString revision](http://tc39.github.io/Function-prototype-toString-revision/)
 - [ ] [Template Literal Revision](https://tc39.github.io/proposal-template-literal-revision/)
 
