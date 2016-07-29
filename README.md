@@ -78,7 +78,7 @@ module.exports = {
 ## ES2017 (incl. stage 3), ES2016/ES7
 
 ### ES2017
-Support for [finished proposals]():
+Support for [finished proposals](https://github.com/tc39/proposals/blob/master/finished-proposals.md):
 - [x] [Object.values/Object.entries](http://www.2ality.com/2015/11/stage3-object-entries.html)
       | [es7.object.values](https://github.com/zloirock/core-js/blob/v2.2.1/modules/es7.object.values.js),
         [es7.object.entries](https://github.com/zloirock/core-js/blob/v2.2.1/modules/es7.object.entries.js)
