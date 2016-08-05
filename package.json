@@ -26,7 +26,7 @@
   "dependencies": {
     "babel-plugin-array-includes": "^2.0.3",
     "babel-plugin-syntax-object-rest-spread": "^6.8.0",
-    "babel-plugin-syntax-trailing-function-commas": "^6.8.0",
+    "babel-plugin-syntax-trailing-function-commas": "^6.13.0",
     "babel-plugin-transform-async-to-generator": "^6.8.0",
     "babel-plugin-transform-es2015-destructuring": "^6.9.0",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.11.5",
