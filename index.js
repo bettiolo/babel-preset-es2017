@@ -1,7 +1,7 @@
 module.exports = {
   plugins: [
     require('babel-plugin-transform-es2015-modules-commonjs'), // This should be optional to allow tree shaking in webpack
-    
+
     // ES2015 w/ Node 5
     require('babel-plugin-syntax-object-rest-spread'),
     require('babel-plugin-transform-es2015-destructuring'),
@@ -16,7 +16,6 @@ module.exports = {
     require('babel-plugin-transform-exponentiation-operator'),
 
     // ES2017 w/ Node 5
-    require('babel-plugin-syntax-async-functions'),
     require('babel-plugin-transform-async-to-generator'),
     require('babel-plugin-syntax-trailing-function-commas'),
   ]
