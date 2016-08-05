@@ -1,7 +1,7 @@
 import {assert} from 'chai';
 
 async function asyncTimeout(delay = 10) {
-  return new Promise((resolve) => {
+  return await new Promise((resolve) => {
     setTimeout(() => resolve('OK'), delay);
   });
 }

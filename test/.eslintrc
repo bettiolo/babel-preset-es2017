@@ -22,6 +22,8 @@
     "arrow-parens": 0,
     "babel/arrow-parens": 2,
     "no-await-in-loop": 0,
-    "babel/no-await-in-loop": 2
+    "babel/no-await-in-loop": 2,
+
+    "import/no-extraneous-dependencies": ["error", {"devDependencies": true}]
   }
 }
