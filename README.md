@@ -98,7 +98,7 @@ Support for [stage3 proposals](https://github.com/tc39/proposals):
 - [ ] [Function.prototype.toString revision](http://tc39.github.io/Function-prototype-toString-revision/)
 - [ ] [Template Literal Revision](https://tc39.github.io/proposal-template-literal-revision/)
 
-### ES2016 / ES6
+### ES2016 / ES7
 
 - [x] [Array.prototype.includes](http://www.2ality.com/2016/02/array-prototype-includes.html) 
       | [array-includes](https://www.npmjs.com/package/babel-plugin-array-includes)
