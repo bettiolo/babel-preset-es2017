@@ -1,5 +1,6 @@
-# babel-preset-es2017
+# *** This package has been transferred to the Babel team. The new major version has breaking changes. See https://babeljs.io/docs/plugins/preset-es2017/ ***
 
+# babel-preset-es2017
 [![Build status](https://img.shields.io/travis/bettiolo/babel-preset-es2017.svg)]
 (https://travis-ci.org/bettiolo/babel-preset-es2017)
 [![Dependency status](https://david-dm.org/bettiolo/babel-preset-es2017.svg)]
