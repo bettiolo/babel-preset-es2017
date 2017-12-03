@@ -49,7 +49,7 @@
     "eslint-plugin-import": "^1.12.0",
     "mocha": "^3.0.1",
     "nodemon": "^1.10.0",
-    "version-bump-prompt": "^1.5.2"
+    "version-bump-prompt": "^3.0.0"
   },
   "keywords": [
     "babel-preset-es2017",
