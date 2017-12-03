@@ -40,7 +40,7 @@
     "core-js": "^2.4.1"
   },
   "devDependencies": {
-    "babel-eslint": "^6.1.2",
+    "babel-eslint": "^7.2.3",
     "babel-register": "^6.11.6",
     "chai": "^4.0.1",
     "eslint": "~3.4.0",
